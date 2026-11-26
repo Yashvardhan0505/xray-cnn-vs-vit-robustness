@@ -1,0 +1,11 @@
+# Raspberry Pi inference server (tested with Python 3.13 on a Pi 400)
+# Versions are not pinned here. For an exact record, run on the Pi:
+#   source btp_env/bin/activate && pip freeze > requirements.txt
+
+torch
+torchvision
+fastapi
+uvicorn
+python-multipart   # needed by FastAPI for image uploads
+jinja2             # HTML templates
+pillow

@@ -1,0 +1,25 @@
+# Credentials
+kaggle.json
+.env
+
+# Datasets (downloaded by training/1_data_preparation.py)
+btp_raw_data/
+btp_3class_dataset/
+*.zip
+
+# Model weights (shared separately, see README)
+*.pth
+*.pt
+*.pkl
+best_*_3class/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual environments
+btp_env/
+gpu_env/
+venv/
+.venv/

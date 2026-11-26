@@ -1,0 +1,2 @@
+Copy templates/index.html from the Raspberry Pi into this folder, then delete this note.
+main.py needs it to start.
